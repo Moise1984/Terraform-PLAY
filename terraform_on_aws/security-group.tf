@@ -16,7 +16,7 @@ resource "aws_security_group" "moise" {
       from_port        = 22
       to_port          = 22
       protocol         = "tcp"
-      cidr_blocks      = ["68.33.90.83/32"] 
+      cidr_blocks      = ["x.x.x.x/x"] 
     }
   
 
